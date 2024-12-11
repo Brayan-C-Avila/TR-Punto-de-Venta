@@ -8,8 +8,8 @@ Este proyecto es una solución de punto de venta (POS) personalizada para **TECN
 - **Productos desde archivo CSV:** Los productos se cargan desde un archivo CSV, lo que facilita la actualización de inventario.
 - **Múltiples secciones:** Utiliza una interfaz tipo notebook, donde cada sección se organiza en pestañas para un acceso rápido.
 - **Carpetas de recursos:**
-  - **notebooks**: Contiene las diferentes secciones del sistema como `notebook_ventas.py`, cada una con funcionalidades específicas.
-  - **utils**: Funciones auxiliares como `util_py.py` que proporcionan funcionalidades adicionales.
+  - **notebooks**: Contiene las diferentes secciones graficas del sistema como `notebook_ventas.py`.
+  - **utils**: Contiene las funciones que se realizan al interactuar con la interfaz como `utils_ventas.py` .
   - **datos**: Contiene los archivos de datos como el CSV de productos, los logos, iconos y archivos de sonido (ej. `beep.mp3`).
 
 ## Instalación
@@ -27,7 +27,7 @@ Para usar el proyecto en tu máquina local, sigue estos pasos:
     Este proyecto utiliza **Tkinter**, que es parte de la librería estándar de Python. Solo necesitas instalar Python en tu sistema:
 
     - Descarga Python desde [aquí](https://www.python.org/downloads/).
-    - Asegúrate de tener la versión 3.x instalada.
+    - Asegúrate de tener la versión 3.11.x instalada.
 
 3. **Ejecutar la aplicación:**
 
@@ -45,7 +45,7 @@ El proyecto está organizado de la siguiente manera:
 /Punto-de-Venta
 │
 ├── main.py                 # Archivo principal que ejecuta la aplicación
-├── /notebooks              # Carpeta con las secciones del sistema (e.g. ventas)
+├── /notebooks              # Carpeta con las secciones graficas del sistema 
 │   ├── notebook_ventas.py
 │   └── ...
 ├── /utils                  # Funciones auxiliares
