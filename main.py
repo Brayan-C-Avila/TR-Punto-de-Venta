@@ -2,10 +2,8 @@ import tkinter as tk
 import csv
 from utils.utils_main import cargar_productos
 from tkinter import ttk
-#from consultas import crear_pestaña_consulta
 from notebooks.notebook_consultas import crear_pestaña_consulta
 from notebooks.notebook_ventas import crear_pestaña_ventas
-#from ventas import crear_pestaña_ventas
 
 # Archivo CSV con los productos
 #archivo_csv = './productos_masivos_lite.csv'
@@ -30,7 +28,6 @@ style.configure('odd.Treeview', background='lightgray')
 # Crear pestañas
 crear_pestaña_ventas(notebook, productos)
 crear_pestaña_consulta(notebook, productos)
-#crear_pestaña_corte(notebook)
 
 # Ejecutar aplicación
 root.mainloop()
